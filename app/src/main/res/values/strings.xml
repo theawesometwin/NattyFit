@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Natty Fit</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_nutrition">Nutrition Information</string>
+    <string name="title_homepage_main">Welcome to Natty Fit</string>
+    <string name="title_activity_workout_tracking">Workout Tracking</string>
+</resources>

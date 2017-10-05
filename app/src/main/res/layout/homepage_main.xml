@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="0dp"
+                android:text="Nutrition " />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="0dp"
+                android:text="Workout Tracking" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="0dp"
+                android:text="Water Intake" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="0dp"
+                android:text="Stay Connected" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="0dp"
+                android:text="Workout Videos" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
