@@ -11,6 +11,143 @@
     tools:layout_editor_absoluteX="0dp">
 
     <TextView
+        android:id="@+id/textView14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Excercise"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/button9"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/button9" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/button9"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView14"
+        tools:layout_constraintBaseline_creator="1" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add Excercise"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Snack"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/button8"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/button8" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView12"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView12"
+        tools:layout_constraintBaseline_creator="1" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add Food"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Dinner"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/button7" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/button7"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView10"
+        tools:layout_constraintBaseline_creator="1" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add Food"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Lunch "
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/button"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView4"
+        tools:layout_constraintBaseline_creator="1" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add Food"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView4" />
+
+    <TextView
         android:id="@+id/calorieleftTVtitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -29,16 +166,12 @@
         android:text="Carbs Left"
         android:gravity = "center"
         android:layout_weight=".25"
-        android:layout_marginStart="104dp"
+        android:layout_marginStart="24dp"
         tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginEnd="108dp"
-        app:layout_constraintRight_toRightOf="@+id/proteinsleftTVtitle"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="104dp"
-        android:layout_marginRight="108dp" />
+        app:layout_constraintLeft_toRightOf="@+id/calorieleftTVtitle"
+        android:layout_marginLeft="24dp" />
 
     <TextView
         android:id="@+id/proteinsleftTVtitle"
@@ -47,12 +180,16 @@
         android:text="Proteins Left"
         android:gravity = "center"
         android:layout_weight=".25"
+        android:layout_marginEnd="34dp"
+        app:layout_constraintRight_toLeftOf="@+id/fatsleftTVtitle"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
-        android:layout_marginEnd="107dp"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="35dp"
+        tools:layout_constraintLeft_creator="1"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginRight="107dp" />
+        app:layout_constraintLeft_toRightOf="@+id/textView6"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="34dp" />
 
     <TextView
         android:id="@+id/fatsleftTVtitle"
@@ -61,12 +198,12 @@
         android:text="Fats Left"
         android:gravity = "center"
         android:layout_weight=".25"
-        android:layout_marginEnd="16dp"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginRight="16dp" />
+        app:layout_constraintRight_toRightOf="@+id/textView8"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView5"
@@ -77,9 +214,9 @@
         android:layout_weight=".25"
         tools:layout_constraintTop_creator="1"
         android:layout_marginTop="16dp"
-        app:layout_constraintTop_toTopOf="parent"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/calorieleftTVtitle" />
+        app:layout_constraintLeft_toLeftOf="@+id/calorieleftTVtitle"
+        app:layout_constraintTop_toTopOf="parent" />
     <TextView
         android:id="@+id/textView6"
         android:layout_width="0dp"
@@ -89,11 +226,11 @@
         android:layout_weight=".25"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="@+id/carbleftTVtitle"
+        android:layout_marginTop="16dp"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/carbleftTVtitle" />
+        app:layout_constraintLeft_toLeftOf="@+id/carbleftTVtitle"
+        app:layout_constraintTop_toTopOf="parent" />
     <TextView
         android:id="@+id/textView7"
         android:layout_width="0dp"
@@ -101,15 +238,15 @@
         android:text="TextView"
         android:gravity = "center"
         android:layout_weight=".25"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="8dp"
         app:layout_constraintRight_toRightOf="@+id/proteinsleftTVtitle"
+        android:layout_marginTop="16dp"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="@+id/proteinsleftTVtitle"
+        app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp" />
     <TextView
@@ -121,8 +258,49 @@
         android:layout_weight=".25"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="16dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintRight_toRightOf="@+id/fatsleftTVtitle" />
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Breakfast"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add Food"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView" />
 
 </android.support.constraint.ConstraintLayout>
